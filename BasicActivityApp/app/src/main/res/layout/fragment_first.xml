@@ -25,29 +25,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonTop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="topClick"
-        android:text="@string/top_button"
-        app:layout_constraintBottom_toTopOf="@id/buttonBottom"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteY="30dp" />
-
-    <Button
-        android:id="@+id/buttonBottom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="bottomClick"
-        android:text="@string/bottom_button"
-        app:layout_constraintBottom_toTopOf="@id/textview_first"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497"
-        tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
